@@ -117,6 +117,32 @@ const content = getAssetContent('VN')
 
 For a full list of functions and the data structures they return, please see the [API Reference](./API.md).
 
+## Swift Package
+
+The same catalog is available to iOS, macOS, tvOS, and watchOS apps. Public types are prefixed with `Soaring` so they do not collide with an `Airline` type from another module.
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/anomaddev/soaring-symbols.git", branch: "main"),
+]
+```
+
+```swift
+import SoaringSymbols
+
+SoaringAirline.Logo("VN", size: 64)
+
+SoaringAirline.Icon("BA", monochrome: true)
+    .foregroundStyle(.primary)
+
+let airline = SoaringAirline.find("VN")
+airline?.name
+airline?.pngData(for: .logo)
+airline?.uiImage() // iOS, tvOS, and watchOS. macOS uses nsImage().
+```
+
+`SoaringAirline.find` accepts an IATA code, ICAO code, name, or slug. `SoaringAirline.Icon` uses the logo when an airline has no icon. Monochrome images are template images, so they take a tint. Color images keep the airline's colors. Logos are 512×512 PNGs with transparency.
+
 ## Contributing
 
 Contributions are welcome!
