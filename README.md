@@ -33,11 +33,19 @@ pnpm add soaring-symbols
 bun add soaring-symbols
 ```
 
+```swift
+// Swift Package Manager
+dependencies: [
+    .package(url: "https://github.com/anomaddev/soaring-symbols.git", branch: "main"),
+]
+```
+
 ## Ecosystem
 
 | Tool / Integration | Author |
 | :-- | :-- |
 | [npm Package](https://www.npmjs.com/package/soaring-symbols) <img src="https://cdn.simpleicons.org/npm/000/CB3837" alt="npm" align=left width=24 height=24 /> | [anhthang]|
+| [Swift Package](https://github.com/anomaddev/soaring-symbols) <img src="https://cdn.simpleicons.org/swift/000/F05138" alt="Swift" align=left width=24 height=24 /> | [anhthang]|
 | [Raycast Extension](https://www.raycast.com/anhthang/soaring-symbols) <img src="https://cdn.simpleicons.org/raycast/000/FF6363" alt="Raycast" align=left width=24 height=24 /> | [anhthang]|
 
 ## Usage
