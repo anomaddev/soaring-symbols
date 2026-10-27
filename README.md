@@ -45,7 +45,7 @@ dependencies: [
 | Tool / Integration | Author |
 | :-- | :-- |
 | [npm Package](https://www.npmjs.com/package/soaring-symbols) <img src="https://cdn.simpleicons.org/npm/000/CB3837" alt="npm" align=left width=24 height=24 /> | [anhthang]|
-| [Swift Package](https://github.com/anomaddev/soaring-symbols) <img src="https://cdn.simpleicons.org/swift/000/F05138" alt="Swift" align=left width=24 height=24 /> | [anhthang]|
+| [Swift Package](https://github.com/anomaddev/soaring-symbols) <img src="https://cdn.simpleicons.org/swift/000/F05138" alt="Swift" align=left width=24 height=24 /> | [anomaddev]|
 | [Raycast Extension](https://www.raycast.com/anhthang/soaring-symbols) <img src="https://cdn.simpleicons.org/raycast/000/FF6363" alt="Raycast" align=left width=24 height=24 /> | [anhthang]|
 
 ## Usage
@@ -162,3 +162,4 @@ Whether through adding new logos, improving existing ones, or suggesting feature
 This repository is licensed under the MIT License — see [LICENSE](./LICENSE) for details.
 
 [anhthang]: https://github.com/anhthang
+[anomaddev]: https://github.com/anomaddev
